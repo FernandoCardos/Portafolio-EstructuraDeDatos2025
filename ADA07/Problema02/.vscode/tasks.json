@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "gcc -Wall -Wextra -g3 ${workspaceFolder}/*.c -o ${workspaceFolder}/output/main.exe",
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": ["$gcc"],
+            "presentation": { "echo": true, "reveal": "always", "focus": false }
+        }
+    ]
+}
